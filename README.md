@@ -85,7 +85,7 @@ Internet Gateway
         v
     Internet
 
-**Key Implementation Steps**
+Key Implementation Steps
 Created an Amazon VPC with CIDR 10.0.0.0/16.
 Created public and private subnets across Availability Zones.
 Configured Internet Gateway and public route tables.
@@ -111,7 +111,7 @@ and
 Welcome to App Server 2
 The successful responses confirmed that the ALB was able to route traffic to the registered healthy EC2 targets.
 
-**Security Design**
+Security Design
 
 The project uses AWS Security Groups to control traffic between components.
 
@@ -121,7 +121,7 @@ SSH access to private application servers is performed through the Bastion Host.
 Private application servers are not directly exposed to the internet.
 NAT Gateway is used for outbound connectivity from private resources.
 
-**Troubleshooting**
+Troubleshooting
 
 During implementation, practical issues were resolved involving:
 
@@ -133,11 +133,11 @@ Application Load Balancer target registration.
 Target Group health checks.
 Verifying application responses from both EC2 servers.
 
-**Project Screenshots**
+Project Screenshots
 
 Implementation screenshots are available in the screenshots directory.
 
-**The screenshots demonstrate**
+The screenshots demonstrate
 
 VPC and subnet configuration
 EC2 instances
@@ -148,7 +148,7 @@ Healthy application targets
 Application Load Balancer
 Application responses from both servers
 
-**Documentation**
+Documentation
 
 Detailed deployment steps are available in the deployment guide.
 
@@ -168,6 +168,6 @@ Cloud Troubleshooting
 AWS Infrastructure Deployment
 
 
-**Project Status**
+Project Status
 Completed
 This project was created as a hands-on AWS cloud infrastructure and networking implementation.
